@@ -84,8 +84,8 @@ class DashboardConfig:
     scale_lock_duration_seconds: float = 2.0
 
     # Marker sizing thresholds
-    size_min: int = 8
-    size_max: int = 60
+    size_min: int = 6
+    size_max: int = 30
     size_threshold_low: float = 0.3
     size_threshold_mid: float = 0.6
     size_threshold_high: float = 0.85
