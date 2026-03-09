@@ -102,12 +102,13 @@ class DashboardConfig:
     color_background: str = "#0a0a1a"
     color_grid: str = "#1a1a2e"
 
+    
     # Physics
-    drift_speed: float = 0.3
-    drift_randomness: float = 0.15
+    drift_speed: float = 0.15
+    drift_randomness: float = 0.05
     bounce_factor: float = 0.7
-    gravity: float = 0.02
-    friction: float = 0.98
+    gravity: float = 0.01
+    friction: float = 0.95
 
     # Instruments
     instruments: List[str] = field(default_factory=lambda: [
